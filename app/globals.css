@@ -1,0 +1,231 @@
+/* 
+.container{
+  height: 1109px;
+  width:1200px;
+  margin:auto;
+} */
+
+.logo{
+  height: 72px;
+  background-color: #FCFAFA;  
+}
+
+.image{
+  margin: auto;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.portal {
+  height:866px;
+  background-color:#EBE9E6;
+  text-align: center;
+  margin: auto;
+  padding-top:55px;
+  width:100%;
+}
+
+.portal-content {
+  width: 705px;
+  height: 620px;
+  margin: auto;
+  background:#F9F7F2;
+  box-sizing: border-box;
+}
+.portal-title{
+  height:40px;
+  width: 330px;
+  margin:auto;
+  font-family: Inter;
+  font-size: 24px;
+}
+.instructions-title{
+  height:43px;
+  width: 471.997px;
+  padding-top: 10px;
+  margin: auto;
+  text-align:start;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+}
+.info{
+  height:43px;
+  width: 471.997px;
+  margin: auto;
+  text-align:start;
+  font-family: Inter;
+  font-size: 14px;
+}
+.info-list{
+  height: 231px;
+  width: 471.997px;
+  color: black;
+  text-align:start;
+  margin: auto;
+  font-family: Inter;
+  font-size: 14px;
+}
+.internet{
+  height: 42px;
+  width: 471.997px;
+  margin: auto;
+  font-family: Inter;
+  font-size: 14px;
+}
+.good{
+  font-family: Inter;
+  font-size: 14px;
+  text-align: start;
+  height: 21px;
+  width: 471.997px;
+  margin: auto;
+}
+.luck{
+  color:#4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: start;
+  height: 21px;
+  width: 471.997px;
+  margin: auto;
+}
+.footer-container{
+  height: 171px;
+  background-color: #4C4B49;
+  padding-top: 63px;
+  
+}
+.Footer{
+  align-items: center;
+  height: 68px;
+}
+.footer-text{
+  height:68px;
+  margin: auto;
+  width:300px;
+  font-family: Inter;
+  font-size: 18px;
+  color: #F9F7F2;
+  text-align: center;
+}
+.footer-text1{
+  font-family: "Inria Sans";
+  font-size: 14px;
+  text-align: center;
+  color: #F9F7F2;
+  margin-top: 10px;
+}
+.line{
+  width: 620px;
+  border:solid 1px black;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.start-button {
+  height: 54px;
+  border: 2px solid  #F4D150;
+  background-color:#FEEEB4;
+  font-family: Inter;
+  font-size: 18px;
+  margin: auto;
+  display: inline-flex;
+  padding: 16px 35px ;
+  justify-content: center;
+  margin-top: 39px;
+  text-align: center;
+}
+
+/* .start-button:hover {
+  background-color: #0056b3;
+} */
+
+@media (max-width: 768px) {
+  .container {
+    width: 360px;
+    height: 1253px;
+  }
+
+  .logo {
+    height:72px;
+    width: 360;
+  }
+
+  .portal {
+    width: 360px;
+    height: 1007px;
+    padding: 20px;
+  }
+
+  .portal-content {
+    width: 320px;
+    height: 827px;
+  }
+
+  .portal-title {
+    width:184px;
+    height: 29px;
+  }
+
+  .instructions-title {
+    width: 280px;
+    height:22px;
+    font-size: 16px;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  .info {
+    width:280px;
+    height:42px;
+    font-size: 12px;
+  }
+
+  .info-list{
+    width: 280px;
+    height: 378px;
+  }
+
+  .internet{
+    width: 280px;
+    height: 63px;
+  }
+
+  .good{
+    height: 21px;
+    width: 280px;
+  }
+
+  .luck{
+    height: 21px;
+    width: 280px;
+  }
+
+  .line{
+    width:280px;
+  }
+
+  .footer-container {
+    height:171px;
+    width:360px;
+  }
+
+  .Footer {
+    height: 57px;
+    width: 289px;
+    flex-direction: column;
+  }
+
+  .footer-text {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .footer-text1 {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,10 @@
+.content-container{
+  width:1200px;
+  /* border:1px solid black;  */
+  margin: auto;
+  background-color:#EBE9E6;
+  padding-top: 10px;
+}
+.content{
+  background-color:#EBE9E6; 
+}

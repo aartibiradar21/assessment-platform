@@ -1,0 +1,35 @@
+.pagination {
+    height:30px;
+    width:450px;
+    gap:16px;
+    border:1px solid black;
+    margin-left:172px;
+  } 
+  
+
+  
+  
+.page-link {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    color:#1F1E1C;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    border: 1px solid  #EBE9E6;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  } 
+
+.submit-button{
+    width: 130px;
+    height: 54px;
+    margin:auto;
+    margin-bottom: 0px;
+    margin-left: 72px;
+    position: relative;
+    bottom: 10px;
+    border: 2px solid  #F4D150;
+    background-color:#FEEEB4;
+} 

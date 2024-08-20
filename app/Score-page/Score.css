@@ -1,0 +1,67 @@
+.header-image{
+    height: 72px;
+    width:auto;
+    border: 1px solid black;
+}
+.final-image{
+    border:1px solid black;
+    width:112px;
+    margin: auto;
+    margin-top: 18px;
+}
+.your-score{
+    height:165px;
+    width:625px;
+    margin: auto;
+    margin-top: 40px;
+    background-color:#4C4B49;
+    border-radius: 12px;
+    padding-top: 52px;
+    padding-left: 45px;
+    padding-bottom: 52px;
+}
+.total-score{
+    height:40px;
+    width:84px;
+    border:1px solid white;
+    float:left;
+    color: aliceblue;
+} 
+.total-text{
+    height:22px;
+    width:84px;
+    border: 1px solid white;
+    margin-top: 17px;
+    float: left;
+    font-size: 14px;
+    font-family: Inter;
+    color: aliceblue;
+    margin-right: 20px;
+}
+.unattempt-count{
+    border:1px solid white;
+    width:122px;
+    height: 58px;
+    float:left;
+    margin-left:52px;
+}
+.grp.svg{
+    height: 28px;
+    width: 28px;
+    border: 1px solid white;
+    margin: auto;
+}
+.attempt-count{
+    border: 1px solid white;
+    height: 58px;
+    width:84px;
+    float:left;
+    margin-left: 33px;
+}
+.wrong-ans{
+    width:68px;
+    height: 58px;
+    border:1px solid white;
+    float:left;
+    margin-left:33px;
+}
