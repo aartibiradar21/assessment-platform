@@ -1,0 +1,56 @@
+.pagination {
+    height:30px;
+    gap:16px;
+    margin-top: 25px;
+  } 
+.page-link {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    color:#1F1E1C;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    border: 1px solid  #EBE9E6;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  } 
+
+
+
+@media (max-width:576px) {
+  .pagination-container{
+    height:74px;
+  }
+  .pagination {
+    height:30px;
+    gap:26px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  } 
+  .page-link{
+    display: none;
+  }
+  .mobile-page-link{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    color:#1F1E1C;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    border: 1px solid  #EBE9E6;
+    text-align: center;
+  }
+
+  
+
+
+@media (min-width:576px) {
+  .mobile-page-link{
+    display: none;
+  }
+  .page-link{
+    display:block;
+  }
+}

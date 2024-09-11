@@ -1,19 +1,13 @@
-/* 
-.container{
-  height: 1109px;
-  width:1200px;
-  margin:auto;
-} */
-
 .logo{
   height: 72px;
   background-color: #FCFAFA;  
+  padding-top: 18px;
 }
 
 .image{
   margin: auto;
-  width: 100px;
-  margin-top: 10px;
+  width: 112px;
+ 
 }
 
 .portal {
@@ -36,16 +30,16 @@
   height:40px;
   width: 330px;
   margin:auto;
-  font-family: Inter;
   font-size: 24px;
+  font-weight: 600;
+  font-family: Inter;
 }
 .instructions-title{
   height:43px;
   width: 471.997px;
-  padding-top: 10px;
+  padding-top: 20px;
   margin: auto;
   text-align:start;
-  font-family: Inter;
   font-size: 18px;
   font-weight: 700;
 }
@@ -54,36 +48,40 @@
   width: 471.997px;
   margin: auto;
   text-align:start;
-  font-family: Inter;
   font-size: 14px;
+  margin-top: 16px;
+  font-weight: 400;
+  color:#4c4b49;
 }
 .info-list{
   height: 231px;
   width: 471.997px;
-  color: black;
+  color:#4c4b49;
   text-align:start;
   margin: auto;
-  font-family: Inter;
   font-size: 14px;
+  line-height: 21px;
 }
 .internet{
   height: 42px;
   width: 471.997px;
   margin: auto;
-  font-family: Inter;
   font-size: 14px;
+  font-weight:400;
+  text-align: start;
+  color:#4c4b49;
+  margin-top: 20px;
 }
 .good{
-  font-family: Inter;
   font-size: 14px;
   text-align: start;
   height: 21px;
   width: 471.997px;
   margin: auto;
+  color:#4c4b49;
 }
 .luck{
   color:#4C4B49;
-  font-family: Inter;
   font-size: 14px;
   font-weight: 700;
   line-height: 150%;
@@ -99,7 +97,6 @@
   
 }
 .Footer{
-  align-items: center;
   height: 68px;
 }
 .footer-text{
@@ -139,9 +136,6 @@
   text-align: center;
 }
 
-/* .start-button:hover {
-  background-color: #0056b3;
-} */
 
 @media (max-width: 768px) {
   .container {
@@ -151,7 +145,7 @@
 
   .logo {
     height:72px;
-    width: 360;
+    width: 360px;
   }
 
   .portal {
@@ -163,11 +157,6 @@
   .portal-content {
     width: 320px;
     height: 827px;
-  }
-
-  .portal-title {
-    width:184px;
-    height: 29px;
   }
 
   .instructions-title {
@@ -216,7 +205,6 @@
   .Footer {
     height: 57px;
     width: 289px;
-    flex-direction: column;
   }
 
   .footer-text {

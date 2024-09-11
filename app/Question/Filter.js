@@ -1,11 +1,12 @@
 import React from 'react';
-import './Filter.css'
+import './filter.css'
 
 const Filter=()=>{
     return(
+      <>
         <div className='filter-box'>
           <div className='filter-text'>FILTERS</div>
-            <div className='question-text'>Question Score
+            <div className='question-text'>Question-Score
             </div>
             <div className='score'>
               <div className='score-box1'>All</div>
@@ -15,11 +16,15 @@ const Filter=()=>{
               </div>
             <div className='Attempt'>Question Attempt</div>
             <div className='check-box'>
+              <div className='check-option'>
             <div className='all'>All(40) </div>
-              <div className='attempted'>Attempt() </div>
-              <div className='unattempted'>unattempted() </div>
+            <div className='attempted'>Attempt(3) </div> 
+            </div>
+            <div className='unattempted'>Unattempted() </div> 
               </div>
             </div>
+            
+            </>
     )
 
 }

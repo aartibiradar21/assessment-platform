@@ -1,18 +1,21 @@
-import "./Header_assessment.css";
-import Timer from './Timer.js'
+import "./header_assessment.css";
 import Pagination from "./Pagination.js";
 
 
 const Headerassessment = () => {
   return (
     <div className="header-container">
-    <div className="header">
-      <div className="img1">
-        <img src="/Logo.png" alt="Logo" />
-        <Timer/>
-        <Pagination/>
+      <div className="logo-pagination">
+        <div className="header">
+          <img src="/Logo.png" className="img1"/>
       </div>
+      <Pagination/>
       </div>
+      <div className="submit-button-container">
+                <a href="/Submit-page">
+                    <button className="submit-button">Submit</button>
+                </a>
+            </div>  
       </div>
           
   );
@@ -20,3 +23,10 @@ const Headerassessment = () => {
 
 
 export default  Headerassessment;
+
+
+
+
+
+      
+

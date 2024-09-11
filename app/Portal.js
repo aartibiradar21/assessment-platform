@@ -16,12 +16,11 @@ const Portal = () => {
             <li>Navigation: You can navigate between questions using the 'Next' and 'Previous' buttons.</li>
             <li>Selection: Choose the best answer for each question. You can change your answers anytime before submitting. </li>
             <li>Submission: Once you have answered all questions, click the 'Submit' button. You must submit before the timer runs out. </li>
-            <li>Review: After submission, you may review your answers and scores.</li>
+            <li>Review:After submission,you may review your answers and scores.</li>
           </ul>  
         </div>
         <div className='internet'>
-        Please ensure a stable internet connection. If you encounter any issues, contact support immediately.
-        </div>
+        Please ensure a stable internet connection. If you encounter any issues, contact support immediately.</div>
         <div className='good'>
         Click 'Lets Start' to begin the test. 
         </div>

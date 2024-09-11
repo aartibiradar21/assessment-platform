@@ -2,8 +2,9 @@
     height: 375px;
     width:284px;
     padding-top: 10px;
+    border: 1px dashed #777671;
+    border-radius: 12px;
     /* border: solid 1px black;  */
-    margin-top:20px;
     background-color:#F9F7F2;
     
   }
@@ -11,34 +12,27 @@
     height:19px;
     width: 197px;
     /* border:1px solid black;  */
-    font-family:Inria Sans;
     font-size: 16px;
     font-weight: 700;
-    margin-top: 35px;
-    margin-left: 49px;
+    margin: 36px 0px 0px 49px;
   }
   .question-text{
     width: 104px;
     height:19px;
     /* border: 1px solid black;  */
     font-size: 16px;
-    font-family: Inria Sans;
     font-weight: 400;
-    margin-top: 36px;
-    margin-left:49px;
+    margin: 36px 0px 0px 49px;
+    font-family: Inria Sans;
   }
    
   .score {
     height: 42px;
     width: 196px;
     /* border: 1px solid black;  */
-    margin-top: 12px;
-    margin-bottom: 10px;
-    margin-left:46px;
-    margin-right: 20px;
+    margin: 12px 20px 10px 46px;
     display: flex; 
     align-items: center; 
-    justify-content: space-between; 
     gap:10px;
   }
   
@@ -48,18 +42,15 @@
     /* border: 1px solid black;  */
     background-color: #4C4B49;
     color: white;
-    font-family: Inter;
     font-size: 14px;
-    text-align: center;
-    padding-top: 7px;
+    padding: 10px 12px 10px 12px;
   }
   .score-box2{
     width: 41px; 
     height: 42px; 
     border:1px solid #F4D150;
     background-color:#FEEEB4;
-    text-align: center;
-    padding-top: 7px;
+    padding: 10px 12px 10px 12px;
   }
   
   .score-box3{
@@ -67,8 +58,7 @@
     height: 42px; 
     border:1px solid #F4D150;
     background-color:#FEEEB4;
-    text-align: center;
-    padding-top: 7px;
+    padding: 10px 12px 10px 12px;
   }
   
   .score-box4 {
@@ -76,67 +66,70 @@
     height: 42px; 
     border:1px solid #F4D150;
     background-color:#FEEEB4;
-    text-align: center;
-    padding-top: 7px;
+    padding: 10px 12px 10px 12px;
   }  
   .Attempt{
     height:19px;
     width:148px;
     /* border: 1px solid black;  */
-    margin-top: 48px;
-    margin-left: 49px;
-    font-family: Inria Sans;
+    margin: 49px 0px 0px 49px;
     font-size: 16px;
-    gap: 10px;
   }
   .check-box{
     width:206px;
-    height: 99px;
-     /* border: 1px solid black;  */
-    margin-left: 45px;
-    margin-top: 16px;
+    height:64px;
+    /* border: 1px solid black;   */
+    margin:16px 0px 0px 45px;
   }
   .all{
     width:67px;
     height: 29px;
     /* border:1px solid black; */
     border-radius: 54px;
-    margin-top: 16px;
     background-color: #4C4B49;
     color: white;
-    padding-left: 12px;
-    padding-top: 4px;
     font-size: 14px;
-    font-family:Inria Sans;
+    font-weight: 400;
+    padding:6px 12px 6px 12px;
   }
-  .attempted{
+  .check-option{
+    display: flex;
+    gap:6px;
+  }
+   .attempted{
     height:29px;
     width:109px;
     border:1px solid #F4D150;
     border-radius: 54px;
-    margin-left:85px;
-    position: relative;
-    bottom:30px;
     background-color:#FEEEB4;
     font-size: 14px;
-    font-family:Inria Sans;
-    color:#1F1E1C ;
-    padding-left: 5px;
-    padding-top: 4px;
+    font-weight: 400;
     text-align: center;
-  }
+    color:#1f1e1c;
+    padding:6px 12px 6px 12px;
+  } 
   .unattempted{
     height:29px;
     width:132px;
     border:1px solid #F4D150;
-    position: relative;
-    bottom: 10px;
     border-radius: 54px;
     background-color:#FEEEB4;
     font-size: 14px;
-    font-family:Inria Sans;
-    color:#1F1E1C ;
-    padding-left: 5px;
-    padding-top: 4px;
+    color:#1f1e1c;
+    padding:6px 12px 6px 12px;
+    margin-top:3px;
     text-align: center;
+  } 
+
+  @media (max-width:576px) {
+    .filter-box{
+      display: none;
+    }
+  
+  }
+  @media (min-width:576px) {
+    .filter-box{
+      display: block;
+    }
+    
   }

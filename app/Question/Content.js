@@ -1,13 +1,22 @@
 import React from 'react';
-import './Content.css'
-
+import './content.css'
+import Timer from './Timer.js'
+import Filter from './Filter.js'
 import Data from "./Data.js"
 
-const Content=()=>{
-  return(
+const Content = () => {
+  return (
     <div className='content'>
       <div className="content-container">
-        <Data/>
+        <div className='timer-filter-data-container'>
+          <div className='timer-filter'>
+            <Timer />
+            <Filter />
+          </div>
+          <Data />
+        </div>
+
+
       </div>
 
     </div>

@@ -1,4 +1,4 @@
-import "./Pagination.css"
+import "./pagination.css"
 
 const Pagination = () => {
     return (
@@ -13,13 +13,13 @@ const Pagination = () => {
             <a className="page-link" href="#">6</a>
             <a className="page-link" href="#">7</a>
             <a className="page-link" href="#">8</a>   
+            <a className="mobile-page-link" href="#">1</a>
+            <a className="mobile-page-link" href="#">..</a>
+            <a className="mobile-page-link" href="#">5</a>
+            <a className="mobile-page-link" href="#">..</a>
+            <a className="mobile-page-link" href="#">8</a>
             <img src="next.png"></img>    
         </div>
-            <div className="submit-button-container">
-            <a href="/Submit-page">
-                <button className="submit-button">Submit</button>
-            </a>
-                </div>  
         </>
     );
 };

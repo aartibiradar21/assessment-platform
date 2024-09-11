@@ -1,4 +1,4 @@
-import './Submit.css'
+import './submit.css'
 
 const Submit=()=>{
     return(
@@ -6,7 +6,7 @@ const Submit=()=>{
             <div className='image-container'>
             <img src="Logo.png"></img>
             </div>
-            <div className='Submitpage'>
+            <div className='submitpage'>
                 <div className='submit-container'>
                     <div className='correct-image'>
                         <img className='img' src="Group 32.svg"></img>

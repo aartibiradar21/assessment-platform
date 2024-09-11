@@ -1,0 +1,73 @@
+/* .assignment-container{
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+} */
+.question-box {
+    width: 560px;
+    margin-top: 66px;
+}
+
+.que-container{
+    width:560px;
+}
+.main-container{
+    height:21px;
+}
+.que-num {
+    font-style: normal;
+    font-family:Inria Sans;
+    font-size:16px;
+    color:  #1F1E1C;
+    font-weight: 700; 
+    float: left;
+}
+
+.score-num {
+    color:#1F1E1C;
+    font-family: Inter;
+    font-size: 14px;
+    text-align:right;
+    float: right;
+}
+
+.que-data {
+    /* border: 1px solid black; */
+    background-color: #FCFAFA;
+    width:560px;
+    height: 284px;
+    font-style: italic;
+    color: #666;
+    padding: 40px;
+    border-radius: 12px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.question p{
+    font-size: 14px;
+    font-style: normal;
+    color: #1f1e1c;
+    font-weight: 600;
+    line-height: 160%;
+}
+ 
+@media (max-width:576px){
+    .question-box {
+        width: 320px;
+        height:auto;
+        margin: 58px 0px 0px 0px
+        }
+    .que-data{
+        width:320px;
+        height: 306px;
+        border: 1px solid black; 
+    } 
+    .score-num {
+        margin-left: 253px;
+        float: none;
+    }
+    .que-container{
+        width:320px;
+        margin-left: 20px;
+    }
+}

@@ -11,7 +11,7 @@
     margin-top: 18px;
     margin-bottom: 18px;
 }
-.Submitpage{
+.submitpage{
     height:1290px;
     width:auto;
     margin: auto;
@@ -91,4 +91,27 @@
     margin-top: 16px;
     margin-left: 35px;
     background-color:#FEEEB4;
+}
+
+@media (max-width: 768px) {
+    .submit-header-container {
+      width: 360px;
+    }
+    .image-container{
+        margin: auto;
+        height:72px;
+        margin-top: 18px;
+    }
+    .submitpage{
+        height:551px;
+        width:360px;
+        padding-top: 54px;
+    }
+    .submit-container{
+        width:320px;
+        height: 422px;
+    }
+    .check-score-container{
+        margin-top: 59px;
+    }
 }
