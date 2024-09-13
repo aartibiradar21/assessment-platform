@@ -112,14 +112,7 @@
     display: none;
   } 
 
-.mobile-filter {
-    height: 39px;
-    width: 104px;
-    /* border: 1px solid black; */
-    display: block; 
-    margin: 165px 0px 0px 110px;
-    border-radius: 6px;
-}
+
 .min-col{
   height: 22px;
   width: 24px;

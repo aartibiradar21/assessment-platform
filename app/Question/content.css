@@ -1,19 +1,15 @@
-.timer-filter{
-  border:1px solid black;
-}
 
 .content-container{
   width:1200px;
-  border:1px solid black; 
   background-color:#EBE9E6;
   margin: auto;
 }
 .timer-filter-data-container{
-  border: 1px solid red;
   width: 894px;
   display: flex;
   justify-content: space-between;
   margin-left: 103px;
+  border: 1px solid black;
 }
 .content{
   background-color:#EBE9E6; 
@@ -29,6 +25,10 @@
     width:360px;
     display: block;
     margin-left: 0px;
+  }
+  .timer-filter{
+    display: flex;
+    justify-content: space-between;
   }
 }
 

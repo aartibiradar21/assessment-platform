@@ -23,7 +23,15 @@ const Filter=()=>{
             <div className='unattempted'>Unattempted() </div> 
               </div>
             </div>
-            
+            <div className='mobile-filter'>
+              <img src='Filter.png' className='filter-img'></img>
+              {/* <div> */}
+              {/* <div className='border-1'></div>
+              <div className='border-2'></div>
+              <div className='border-3'></div>
+              </div> */}
+
+            </div>
             </>
     )
 

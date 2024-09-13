@@ -96,6 +96,7 @@
 @media (max-width: 768px) {
     .submit-header-container {
       width: 360px;
+      margin: auto;
     }
     .image-container{
         margin: auto;
