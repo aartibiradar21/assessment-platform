@@ -7,7 +7,7 @@ const Data = () => {
             <div className='que-container'>
             <div className='main-container'>
             <div className='que-num'>QUESTION 1</div>
-                <div className='score-num'> Score +1</div>
+                <div className='score-num'> Score +10</div>
                 </div>
             <div className='que-data'>
                 <div className='question'>
@@ -19,7 +19,7 @@ const Data = () => {
             <div className='que-container'>
             <div className='main-container'>
             <div className='que-num'>QUESTION 2</div>
-                <div className='score-num'> Score +1</div>
+                <div className='score-num'> Score +10</div>
                 </div>
             <div className='que-data'>
             <div className='question'>
@@ -31,7 +31,7 @@ const Data = () => {
             <div className='que-container'>
             <div className='main-container'>
             <div className='que-num'>QUESTION 3</div>
-                <div className='score-num'> Score +1</div>
+                <div className='score-num'> Score +10</div>
                 </div>
             <div className='que-data'>
             <div className='question'>
@@ -44,7 +44,7 @@ const Data = () => {
             <div className='que-container'>
             <div className='main-container'>
             <div className='que-num'>QUESTION 4</div>
-                <div className='score-num'> Score +1</div>
+                <div className='score-num'> Score +10</div>
                 </div>
             <div className='que-data'>
             <div className='question'>
@@ -56,7 +56,7 @@ const Data = () => {
             <div className='que-container'>
             <div className='main-container'>
             <div className='que-num'>QUESTION 5</div>
-                <div className='score-num'> Score +1</div>
+                <div className='score-num'> Score +10</div>
                 </div>
             <div className='que-data'>
             <div className='question'>

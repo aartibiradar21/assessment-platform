@@ -1,3 +1,4 @@
+
 .logo{
   height: 72px;
   background-color: #FCFAFA;  
@@ -9,14 +10,12 @@
   width: 112px;
  
 }
-
 .portal {
   height:866px;
   background-color:#EBE9E6;
   text-align: center;
   margin: auto;
   padding-top:55px;
-  width:100%;
 }
 
 .portal-content {
@@ -25,26 +24,23 @@
   margin: auto;
   background:#F9F7F2;
   box-sizing: border-box;
+  padding-top: 40px ;
+  margin-top: 19px;
 }
 .portal-title{
-  height:40px;
-  width: 330px;
   margin:auto;
   font-size: 24px;
   font-weight: 600;
-  font-family: Inter;
+  line-height: 28.8px;
 }
 .instructions-title{
-  height:43px;
   width: 471.997px;
-  padding-top: 20px;
   margin: auto;
   text-align:start;
   font-size: 18px;
   font-weight: 700;
 }
 .info{
-  height:43px;
   width: 471.997px;
   margin: auto;
   text-align:start;
@@ -54,7 +50,6 @@
   color:#4c4b49;
 }
 .info-list{
-  height: 231px;
   width: 471.997px;
   color:#4c4b49;
   text-align:start;
@@ -63,19 +58,16 @@
   line-height: 21px;
 }
 .internet{
-  height: 42px;
   width: 471.997px;
   margin: auto;
   font-size: 14px;
   font-weight:400;
   text-align: start;
   color:#4c4b49;
-  margin-top: 20px;
 }
 .good{
   font-size: 14px;
   text-align: start;
-  height: 21px;
   width: 471.997px;
   margin: auto;
   color:#4c4b49;
@@ -86,7 +78,6 @@
   font-weight: 700;
   line-height: 150%;
   text-align: start;
-  height: 21px;
   width: 471.997px;
   margin: auto;
 }
@@ -117,7 +108,7 @@
 }
 .line{
   width: 620px;
-  border:solid 1px black;
+  border:1px solid #4C4B49;
   margin: auto;
   margin-top: 40px;
 }
@@ -129,11 +120,9 @@
   font-family: Inter;
   font-size: 18px;
   margin: auto;
-  display: inline-flex;
   padding: 16px 35px ;
-  justify-content: center;
-  margin-top: 39px;
-  text-align: center;
+  
+  margin-top: 25px;
 }
 
 
@@ -143,10 +132,7 @@
     height: 1253px;
   }
 
-  .logo {
-    height:72px;
-    width: 360px;
-  }
+  
 
   .portal {
     width: 360px;
@@ -161,35 +147,30 @@
 
   .instructions-title {
     width: 280px;
-    height:22px;
+
     font-size: 16px;
-    padding-top: 5px;
+
     text-align: center;
   }
 
   .info {
     width:280px;
-    height:42px;
-    font-size: 12px;
   }
 
   .info-list{
     width: 280px;
-    height: 378px;
+
   }
 
   .internet{
     width: 280px;
-    height: 63px;
   }
 
   .good{
-    height: 21px;
     width: 280px;
   }
 
   .luck{
-    height: 21px;
     width: 280px;
   }
 
@@ -200,6 +181,7 @@
   .footer-container {
     height:171px;
     width:360px;
+    margin: auto;
   }
 
   .Footer {
