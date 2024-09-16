@@ -53,6 +53,7 @@
     margin: 0 auto;
     margin-top: 18px;
     border-bottom: 1px solid #E0DFDA;
+    padding-bottom: 18px;
   }
 
   .img1 {
@@ -63,9 +64,13 @@
   
 
   .submit-button-container {
-    display: none; 
+    display:block;
+    position: fixed;
+    bottom: 231px;
+    right: 40px; 
   }
 }
+
 
 
 

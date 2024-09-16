@@ -9,15 +9,21 @@
   display: flex;
   justify-content: space-between;
   margin-left: 103px;
-  border: 1px solid black;
 }
 .content{
   background-color:#EBE9E6; 
 }
+.timer-filter{
+  width: 284px;
+}
 
 @media (max-width: 576px){
+  .content{
+    width: 360px;
+    margin: auto;
+  }
   .content-container{
-    width:360px;
+    width:100%;
     height:auto;
     display: block;
   }

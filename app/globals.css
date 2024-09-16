@@ -20,11 +20,11 @@
 
 .portal-content {
   width: 705px;
-  height: 620px;
+  /* height: 620px; */
   margin: auto;
   background:#F9F7F2;
   box-sizing: border-box;
-  padding-top: 40px ;
+  padding: 40px 0px 49px 0px;
   margin-top: 19px;
 }
 .portal-title{
@@ -32,6 +32,7 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 28.8px;
+  color:#4C4B49;
 }
 .instructions-title{
   width: 471.997px;
@@ -39,6 +40,8 @@
   text-align:start;
   font-size: 18px;
   font-weight: 700;
+  color:  #4C4B49;
+  line-height: 21.78px;
 }
 .info{
   width: 471.997px;
@@ -48,6 +51,7 @@
   margin-top: 16px;
   font-weight: 400;
   color:#4c4b49;
+  margin-bottom: 8px;
 }
 .info-list{
   width: 471.997px;
@@ -64,6 +68,8 @@
   font-weight:400;
   text-align: start;
   color:#4c4b49;
+  margin-bottom: 8px;
+  line-height: 21px;
 }
 .good{
   font-size: 14px;
@@ -76,7 +82,6 @@
   color:#4C4B49;
   font-size: 14px;
   font-weight: 700;
-  line-height: 150%;
   text-align: start;
   width: 471.997px;
   margin: auto;
@@ -121,8 +126,7 @@
   font-size: 18px;
   margin: auto;
   padding: 16px 35px ;
-  
-  margin-top: 25px;
+  margin-top: 39px;
 }
 
 

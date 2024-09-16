@@ -1,16 +1,12 @@
-/* .assignment-container{
-    border:1px solid black;
-    display: flex;
-    justify-content: space-between;
-} */
+
 .question-box {
     width: 560px;
     margin-top: 66px;
 }
 
-.que-container{
+/* .que-container{
     width:560px;
-}
+} */
 .main-container{
     height:21px;
 }
@@ -53,7 +49,7 @@
  
 @media (max-width:576px){
     .question-box {
-        width: 320px;
+        width: 100%;
         height:auto;
         margin: 58px 0px 0px 0px;
         }
@@ -68,6 +64,6 @@
     }
     .que-container{
         width:320px;
-        margin-left: 20px;
+        margin:auto;
     }
 }
