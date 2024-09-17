@@ -24,8 +24,12 @@ const Filter=()=>{
               </div>
             </div>
             <div className='mobile-filter'>
-              <img src='Filter.png' className='filter-img'></img>
-
+              <div className='filter-lines'>
+            <div className='filter-line-1'></div>
+            <div className='filter-line-2'></div>
+            <div className='filter-line-3'></div>
+            </div>
+            <div className='text-filter'>filters</div>
             </div>
             </>
     )

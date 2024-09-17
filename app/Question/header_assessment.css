@@ -29,7 +29,8 @@
   height: 54px;
   margin-top: 9px;
   border: 2px solid  #F4D150;
-  background-color:#FEEEB4;
+  background: #feeeb4;
+  box-shadow: 0 4px 7px 0 #b3ae9c;
 } 
 
 @media (max-width: 576px) {
@@ -66,7 +67,7 @@
   .submit-button-container {
     display:block;
     position: fixed;
-    bottom: 231px;
+    bottom: 40px;
     right: 40px; 
   }
 }

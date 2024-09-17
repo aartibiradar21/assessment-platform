@@ -19,11 +19,10 @@
 
 @media (max-width: 576px){
   .content{
-    width: 360px;
     margin: auto;
   }
   .content-container{
-    width:100%;
+    width:360px;
     height:auto;
     display: block;
   }
@@ -35,6 +34,7 @@
   .timer-filter{
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
 }
 

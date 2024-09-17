@@ -17,10 +17,8 @@
   margin: auto;
   padding-top:55px;
 }
-
 .portal-content {
   width: 705px;
-  /* height: 620px; */
   margin: auto;
   background:#F9F7F2;
   box-sizing: border-box;
@@ -61,6 +59,7 @@
   font-size: 14px;
   line-height: 21px;
 }
+
 .internet{
   width: 471.997px;
   margin: auto;
@@ -120,12 +119,12 @@
 
 .start-button {
   height: 54px;
+  width: 160px;
   border: 2px solid  #F4D150;
-  background-color:#FEEEB4;
-  font-family: Inter;
+  background: #feeeb4;
+  box-shadow: 0 4px 7px 0 #b3ae9c;
   font-size: 18px;
   margin: auto;
-  padding: 16px 35px ;
   margin-top: 39px;
 }
 
@@ -139,7 +138,6 @@
   
 
   .portal {
-    width: 360px;
     height: 1007px;
     padding: 20px;
   }
