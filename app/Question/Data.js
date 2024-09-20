@@ -11,14 +11,16 @@ const Data = () => {
                 </div>
             <div className='que-data'>
                 <div className='question'>
-                    <p>Which of the following committees recommended inclusion of fundamental duties?</p>
+                    <p>Which of the following committees recommended inclusion of fundamental duties?</p></div>
                     <div className='option1'> Tarapore committee</div>
                     <div className='option1'> Radha krishna commitee</div>
                     <div className='option1'> Swaran singh committee</div>
                     <div className='option1'> Balwanti mehta committee</div>
-                </div>
             </div>
             </div> 
+
+
+
 
             <div className='que-container'>
             <div className='main-container'>
@@ -27,12 +29,11 @@ const Data = () => {
                 </div>
             <div className='que-data'>
             <div className='question'>
-                    <p>Which of the following committees recommended inclusion of fundamental duties?</p>
+                    <p>Which of the following committees recommended inclusion of fundamental duties?</p></div>
                     <div className='option1'> Tarapore committee</div>
                     <div className='option1'> Radha krishna commitee</div>
                     <div className='option1'> Swaran singh committee</div>
                     <div className='option1'> Balwanti mehta committee</div>
-                </div>
             </div>
             </div>  
             
@@ -43,12 +44,11 @@ const Data = () => {
                 </div>
             <div className='que-data'>
             <div className='question'>
-                    <p>Which of the following committees recommended inclusion of fundamental duties?</p>
+                    <p>Which of the following committees recommended inclusion of fundamental duties?</p></div>
                     <div className='option1'> Tarapore committee</div>
                     <div className='option1'> Radha krishna commitee</div>
                     <div className='option1'> Swaran singh committee</div>
                     <div className='option1'> Balwanti mehta committee</div>
-                </div>
             </div>
             </div> 
 
@@ -60,12 +60,11 @@ const Data = () => {
                 </div>
             <div className='que-data'>
             <div className='question'>
-                    <p>Which of the following committees recommended inclusion of fundamental duties?</p>
+                    <p>Which of the following committees recommended inclusion of fundamental duties?</p></div>
                     <div className='option1'> Tarapore committee</div>
                     <div className='option1'> Radha krishna commitee</div>
                     <div className='option1'> Swaran singh committee</div>
                     <div className='option1'> Balwanti mehta committee</div>
-                </div>
             </div>
             </div> 
 
@@ -76,12 +75,11 @@ const Data = () => {
                 </div>
             <div className='que-data'>
             <div className='question'>
-                    <p>Which of the following committees recommended inclusion of fundamental duties?</p>
+                    <p>Which of the following committees recommended inclusion of fundamental duties?</p></div>
                     <div className='option1'> Tarapore committee</div>
                     <div className='option1'> Radha krishna commitee</div>
                     <div className='option1'> Swaran singh committee</div>
                     <div className='option1'> Balwanti mehta committee</div>
-                </div>
             </div>
             </div> 
 

@@ -1,12 +1,10 @@
 
 .question-box {
-    width: 560px;
+    width:auto;
     margin-top: 66px;
 }
 
-/* .que-container{
-    width:560px;
-} */
+
 .main-container{
     height:21px;
 }
@@ -77,7 +75,7 @@
         width: 100%;
         height:auto;
         margin: 58px 0px 0px 0px;
-        padding: 0px 20px 0px 20px;
+        /* padding: 0px 20px 0px 20px; */
         }
     .que-data{
         width:100%;

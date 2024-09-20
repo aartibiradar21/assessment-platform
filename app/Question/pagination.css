@@ -39,8 +39,10 @@
     align-items: center;
   }
   .pagination {
-    gap:26px;
     margin:auto;
+    width: 100%;
+    justify-content: space-around;
+    gap:0px;
   }
   
   .mobile-only{

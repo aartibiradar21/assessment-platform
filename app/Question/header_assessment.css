@@ -39,12 +39,13 @@
     display: block; 
     margin: auto;
     height: auto;
+    padding: 0px 20px 0px 20px;
   }
 
   .logo-pagination {
     width: 100%;
     display: block;
-    border: 1px solid #E0DFDA;
+    /* border: 1px solid #E0DFDA; */
   }
 
   .header {
