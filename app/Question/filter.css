@@ -29,24 +29,36 @@
     background-color: #4C4B49;
     color: white;
     font-size: 14px;
-    padding: 10px 12px 10px 12px;
+    border-radius: 4px;
+    line-height: 41px;
+    width: 42px;
+    text-align: center;
   }
   .score-box2{
     border:1px solid #F4D150;
     background-color:#FEEEB4;
-    padding: 10px 12px 10px 12px;
+    border-radius: 4px;
+    line-height: 41px;
+    width: 42px;
+    text-align: center;
   }
   
   .score-box3{ 
     border:1px solid #F4D150;
     background-color:#FEEEB4;
-    padding: 10px 12px 10px 12px;
+    border-radius: 4px;
+    line-height: 41px;
+    width: 42px;
+    text-align: center;
   }
   
   .score-box4 {
     border:1px solid #F4D150;
     background-color:#FEEEB4;
-    padding: 10px 12px 10px 12px;
+    border-radius: 4px;
+    line-height: 41px;
+    width: 42px;
+    text-align: center;
   }  
   .Attempt{
     font-size: 16px;

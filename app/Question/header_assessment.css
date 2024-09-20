@@ -35,7 +35,7 @@
 
 @media (max-width: 576px) {
   .header-container {
-    width: 360px; 
+    width:100%; 
     display: block; 
     margin: auto;
     height: auto;
@@ -52,9 +52,9 @@
     width: 100%;
     text-align: center; 
     margin: 0 auto;
-    margin-top: 18px;
     border-bottom: 1px solid #E0DFDA;
     padding-bottom: 18px;
+    padding-top: 18px;
   }
 
   .img1 {
