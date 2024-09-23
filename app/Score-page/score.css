@@ -149,22 +149,22 @@
 }
 
 @media (max-width:576px){
-    .header-image{
+    /* .header-image{
         width: 360px;
-    }
+    } */
     .main-container{
-        width: 320px;
+        width: 100%;
+        padding: 0px 20px 0px 20px;
     }
     .your-score{
-        width:320px;
+        width:100%;
         height: 218px;
         padding:0px 0px 0px 0px;
+        display: flex;
+        align-items: center;
     }
-    .total-score{
-        margin: 17px 0px 53px 120px;
-    }  
     .unattempt-count{
-        margin-left: 12px;
+        margin-left:0px;
         border-right: none;
     }
     .grp{
